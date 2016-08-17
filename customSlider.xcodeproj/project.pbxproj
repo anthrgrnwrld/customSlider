@@ -14,6 +14,9 @@
 		3662D0BC1D651ED500470ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3662D0BA1D651ED500470ED8 /* LaunchScreen.storyboard */; };
 		3662D0C71D651ED500470ED8 /* customSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3662D0C61D651ED500470ED8 /* customSliderTests.swift */; };
 		3662D0D21D651ED500470ED8 /* customSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3662D0D11D651ED500470ED8 /* customSliderUITests.swift */; };
+		3662D0E21D651F7400470ED8 /* slider_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662D0DF1D651F7400470ED8 /* slider_left.png */; };
+		3662D0E31D651F7400470ED8 /* slider_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662D0E01D651F7400470ED8 /* slider_right.png */; };
+		3662D0E41D651F7400470ED8 /* slider_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3662D0E11D651F7400470ED8 /* slider_thumb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3662D0CD1D651ED500470ED8 /* customSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3662D0D11D651ED500470ED8 /* customSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSliderUITests.swift; sourceTree = "<group>"; };
 		3662D0D31D651ED500470ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3662D0DF1D651F7400470ED8 /* slider_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_left.png; sourceTree = "<group>"; };
+		3662D0E01D651F7400470ED8 /* slider_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_right.png; sourceTree = "<group>"; };
+		3662D0E11D651F7400470ED8 /* slider_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_thumb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3662D0B81D651ED500470ED8 /* Assets.xcassets */,
 				3662D0BA1D651ED500470ED8 /* LaunchScreen.storyboard */,
 				3662D0BD1D651ED500470ED8 /* Info.plist */,
+				3662D0DF1D651F7400470ED8 /* slider_left.png */,
+				3662D0E01D651F7400470ED8 /* slider_right.png */,
+				3662D0E11D651F7400470ED8 /* slider_thumb.png */,
 			);
 			path = customSlider;
 			sourceTree = "<group>";
@@ -231,7 +240,10 @@
 			files = (
 				3662D0BC1D651ED500470ED8 /* LaunchScreen.storyboard in Resources */,
 				3662D0B91D651ED500470ED8 /* Assets.xcassets in Resources */,
+				3662D0E31D651F7400470ED8 /* slider_right.png in Resources */,
+				3662D0E41D651F7400470ED8 /* slider_thumb.png in Resources */,
 				3662D0B71D651ED500470ED8 /* Main.storyboard in Resources */,
+				3662D0E21D651F7400470ED8 /* slider_left.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				3662D0D81D651ED500470ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3662D0D91D651ED500470ED8 /* Build configuration list for PBXNativeTarget "customSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				3662D0DB1D651ED500470ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3662D0DC1D651ED500470ED8 /* Build configuration list for PBXNativeTarget "customSliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				3662D0DE1D651ED500470ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
